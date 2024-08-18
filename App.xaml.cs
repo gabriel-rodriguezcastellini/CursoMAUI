@@ -1,4 +1,6 @@
-﻿namespace CursoMAUI
+﻿using CursoMAUI.Pages;
+
+namespace CursoMAUI
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new FlyoutPageT();
         }
     }
 }

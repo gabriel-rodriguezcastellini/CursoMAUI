@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace CursoMAUI
+namespace CursoMAUI.Platforms.iOS
 {
     public class Program
     {
