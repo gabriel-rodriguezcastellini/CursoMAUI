@@ -4,6 +4,6 @@
     {
         public required string Title { get; set; }
         public required string IconSource { get; set; }
-        public required Type TargetType { get; set; }
+        public Type? TargetType { get; set; }
     }
 }

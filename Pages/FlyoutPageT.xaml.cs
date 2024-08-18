@@ -12,7 +12,7 @@ public partial class FlyoutPageT : FlyoutPage
     {
         if (e.CurrentSelection[0] is FlyoutPageItem item)
         {
-            Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetType)!);
+            Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetType!)!);
             IsPresented = false;
         }
     }

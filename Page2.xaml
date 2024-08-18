@@ -3,10 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CursoMAUI.Page2"
              Title="Page2">
+    <NavigationPage.TitleView>
+        <Slider HeightRequest="44" WidthRequest="300" />
+    </NavigationPage.TitleView>
     <VerticalStackLayout>
         <Label
             Text="You're on page 2!"
             VerticalOptions="Center"
             HorizontalOptions="Center" />
+        <Label Text="{Binding Title}" />
+        <Image Source="{Binding IconSource}" WidthRequest="50" HeightRequest="50" />
     </VerticalStackLayout>
 </ContentPage>

@@ -8,7 +8,7 @@
              Padding="30">
 
     <StackLayout VerticalOptions="Center">
-        <Button Text="button 1"></Button>
+        <Button Text="button 1" Clicked="Button_Clicked"></Button>
         <Button Text="button 2"></Button>
         <Button Text="button 3"></Button>
     </StackLayout>
