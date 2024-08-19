@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CursoMAUI.Page1"
-             Title="Page1">
+             Title="Page1"
+             IconImageSource="reminders.png">
     <VerticalStackLayout>
         <Label
             Text="You're on page 1!"

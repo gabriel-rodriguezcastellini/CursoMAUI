@@ -5,7 +5,8 @@
              BackgroundColor="Red"
              Title="Page 1"
              IsBusy="True"
-             Padding="30">
+             Padding="30"
+             IconImageSource="contact.png">
 
     <StackLayout VerticalOptions="Center">
         <Button Text="button 1" Clicked="Button_Clicked"></Button>

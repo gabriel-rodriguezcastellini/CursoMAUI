@@ -11,7 +11,7 @@
         <CollectionView.ItemsSource>
             <x:Array Type="{x:Type local:FlyoutPageItem}">
                 <local:FlyoutPageItem Title="Contacts" IconSource="contact.png" TargetType="{x:Type local1:Page1}" />
-                <local:FlyoutPageItem Title="Tasks list" IconSource="taskslist.png" TargetType="{x:Type local1:Page2}" />
+                <local:FlyoutPageItem Title="Tasks list" IconSource="tasklist.png" TargetType="{x:Type local1:Page2}" />
                 <local:FlyoutPageItem Title="Reminders" IconSource="reminders.png" TargetType="{x:Type local1:Page1}" />
             </x:Array>
         </CollectionView.ItemsSource>
