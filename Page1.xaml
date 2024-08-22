@@ -4,10 +4,11 @@
              x:Class="CursoMAUI.Page1"
              Title="Page1"
              IconImageSource="reminders.png">
-    <VerticalStackLayout>
-        <Label
-            Text="You're on page 1!"
-            VerticalOptions="Center"
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <AbsoluteLayout Margin="20">
+        <BoxView Color="Silver" AbsoluteLayout.LayoutBounds="0,10,200,5"/>
+        <BoxView Color="Silver" AbsoluteLayout.LayoutBounds="0,20,200,5"/>
+        <BoxView Color="Silver" AbsoluteLayout.LayoutBounds="10,0,5,65"/>
+        <BoxView Color="Silver" AbsoluteLayout.LayoutBounds="20,0,5,65"/>
+        <Label Text="Header style" FontSize="24" AbsoluteLayout.LayoutBounds="30,25"/>
+    </AbsoluteLayout>
 </ContentPage>
