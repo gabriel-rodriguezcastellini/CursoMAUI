@@ -4,14 +4,18 @@
              x:Class="CursoMAUI.Page1"
              Title="Page1"
              IconImageSource="reminders.png">
-    <StackLayout Margin="20" Orientation="Horizontal">
-        <Label Text="First color"/>
-        <BoxView Color="Yellow" HeightRequest="40"/>
-        <BoxView Color="Blue" HeightRequest="40"/>
-        <BoxView Color="Red" HeightRequest="40"/>
-        <Label Text="Second colors"/>
-        <BoxView Color="Red" HeightRequest="40"/>
-        <BoxView Color="Blue" HeightRequest="40"/>
-        <BoxView Color="Yellow" HeightRequest="40"/>
+    <!--<StackLayout Margin="20" Orientation="Horizontal" HorizontalOptions="Center">
+    <BoxView Color="Yellow" WidthRequest="40"/>
+    <BoxView Color="Blue" WidthRequest="40"/>
+    <BoxView Color="Red" WidthRequest="40"/>
+    <BoxView Color="Red" WidthRequest="40"/>
+    <BoxView Color="Blue" WidthRequest="40"/>
+    <BoxView Color="Yellow" WidthRequest="40"/>
+    </StackLayout>-->
+    <StackLayout Margin="20" Spacing="6">
+        <Label Text="Start" BackgroundColor="Gray" HorizontalOptions="Start"/>
+        <Label Text="Center" BackgroundColor="Gray" HorizontalOptions="Center"/>
+        <Label Text="End" BackgroundColor="Gray" HorizontalOptions="End"/>
+        <Label Text="Fill" BackgroundColor="Gray" HorizontalOptions="Fill"/>
     </StackLayout>
 </ContentPage>
