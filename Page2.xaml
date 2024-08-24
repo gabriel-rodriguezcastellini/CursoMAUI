@@ -6,7 +6,22 @@
              IconImageSource="tasklist.png">
     <StackLayout Margin="20">
         <Frame BorderColor="Black" Padding="5">
-            <StackLayout Orientation="Horizontal" Spacing="15"></StackLayout>
+            <StackLayout Orientation="Horizontal" Spacing="15">
+                <BoxView Color="Yellow" WidthRequest="40" />
+                <Label Text="Yellow" FontSize="18" VerticalOptions="Center"/>
+            </StackLayout>
+        </Frame>
+        <Frame BorderColor="Black" Padding="5">
+            <StackLayout Orientation="Horizontal" Spacing="15">
+                <BoxView Color="Blue" WidthRequest="40" />
+                <Label Text="Blue" FontSize="18" VerticalOptions="Center"/>
+            </StackLayout>
+        </Frame>
+        <Frame BorderColor="Black" Padding="5">
+            <StackLayout Orientation="Horizontal" Spacing="15">
+                <BoxView Color="Red" WidthRequest="40" />
+                <Label Text="Red" FontSize="18" VerticalOptions="Center"/>
+            </StackLayout>
         </Frame>
     </StackLayout>
 </ContentPage>
