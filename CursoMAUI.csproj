@@ -70,6 +70,9 @@
 		<MauiXaml Update="FlyoutMenuPage.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
+		<MauiXaml Update="Page3.xaml">
+		  <Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
 		<MauiXaml Update="Pages\FlyoutPageT.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
