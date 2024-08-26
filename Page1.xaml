@@ -4,7 +4,10 @@
              x:Class="CursoMAUI.Page1"
              Title="Page1"
              IconImageSource="reminders.png">
-    <FlexLayout Direction="Column">
-
+    <FlexLayout Direction="Column" AlignItems="Center" JustifyContent="SpaceEvenly">
+        <Label Text="Floating design in action" FontSize="18"/>
+        <Image Source="logo_pv.png" HeightRequest="300" />
+        <Button Text="Don't press the button"/>
+        <Label Text="Test label"/>
     </FlexLayout>
 </ContentPage>
