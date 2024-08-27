@@ -57,6 +57,21 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<None Remove="Resources\Images\iconocatorce.png" />
+		<None Remove="Resources\Images\iconocinco.png" />
+		<None Remove="Resources\Images\iconocuatro.png" />
+		<None Remove="Resources\Images\iconodiez.png" />
+		<None Remove="Resources\Images\iconodoce.png" />
+		<None Remove="Resources\Images\iconodos.png" />
+		<None Remove="Resources\Images\icononueve.png" />
+		<None Remove="Resources\Images\iconoocho.png" />
+		<None Remove="Resources\Images\iconoonce.png" />
+		<None Remove="Resources\Images\iconoquince.png" />
+		<None Remove="Resources\Images\iconoseis.png" />
+		<None Remove="Resources\Images\iconosiete.png" />
+		<None Remove="Resources\Images\iconotrece.png" />
+		<None Remove="Resources\Images\iconotres.png" />
+		<None Remove="Resources\Images\iconouno.png" />
 		<None Remove="Resources\Splash\splash.svg" />
 	</ItemGroup>
 
