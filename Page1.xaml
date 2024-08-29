@@ -4,10 +4,25 @@
              x:Class="CursoMAUI.Page1"
              Title="Page1"
              IconImageSource="reminders.png">
-    <FlexLayout Direction="Column" AlignItems="Center" JustifyContent="SpaceEvenly">
-        <Label Text="Floating design in action" FontSize="18"/>
-        <Image Source="logo_pv.png" HeightRequest="300" />
-        <Button Text="Don't press the button"/>
-        <Label Text="Test label"/>
-    </FlexLayout>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <BoxView Color="Green"/>
+        <Label Text="Row 0, Column 0" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <BoxView Grid.Column="1" Color="Blue"/>
+        <Label Grid.Column="1" Text="Row 0, Column 1" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <BoxView Grid.Row="1" Grid.Column="1" Color="Teal"/>
+        <Label Grid.Row="1" Grid.Column="1" Text="Row 1, Column 1" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <BoxView Grid.Row="1" Color="Purple"/>
+        <Label Grid.Row="1" Text="Row 1, Column 0" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <BoxView Grid.Row="2" Grid.ColumnSpan="2" Color="Red"/>
+        <Label Grid.Row="2" Grid.ColumnSpan="2" Text="Row 2, Column 0 and 1" HorizontalOptions="Center" VerticalOptions="Center"/>
+    </Grid>
 </ContentPage>
