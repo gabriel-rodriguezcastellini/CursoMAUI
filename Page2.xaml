@@ -4,7 +4,7 @@
              x:Class="CursoMAUI.Page2"
              Title="Page2"
              IconImageSource="tasklist.png">
-    <Grid>
+    <Grid RowSpacing="6" ColumnSpacing="6">
 
         <Grid.RowDefinitions>
             <RowDefinition />
