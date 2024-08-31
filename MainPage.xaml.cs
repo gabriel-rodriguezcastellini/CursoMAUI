@@ -1,26 +1,25 @@
 ﻿using CursoMAUI.Pages;
 
-namespace CursoMAUI
+namespace CursoMAUI;
+
+public partial class MainPage : ContentPage
 {
-    public partial class MainPage : ContentPage
+    public MainPage()
     {
-        public MainPage()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
+    }
 
-        private async void Button_Clicked(object sender, EventArgs e)
+    private async void Button_Clicked(object sender, EventArgs e)
+    {
+        FlyoutPageItem flyoutPageItem = new()
         {
-            FlyoutPageItem flyoutPageItem = new()
-            {
-                Title = "Navigation Pages Example",
-                IconSource = "contact.png"
-            };
+            Title = "Navigation Pages Example",
+            IconSource = "contact.png"
+        };
 
-            await Navigation.PushAsync(new Page2()
-            {
-                BindingContext = flyoutPageItem
-            });
-        }
+        await Navigation.PushAsync(new Page2()
+        {
+            BindingContext = flyoutPageItem
+        });
     }
 }

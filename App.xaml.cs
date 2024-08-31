@@ -1,14 +1,13 @@
 ﻿using CursoMAUI.Pages;
 
-namespace CursoMAUI
-{
-    public partial class App : Application
-    {
-        public App()
-        {
-            InitializeComponent();
+namespace CursoMAUI;
 
-            MainPage = new TabbedPageT();
-        }
+public partial class App : Application
+{
+    public App()
+    {
+        InitializeComponent();
+
+        MainPage = new TabbedPageT();
     }
 }

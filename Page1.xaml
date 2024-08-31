@@ -4,18 +4,23 @@
              x:Class="CursoMAUI.Page1"
              Title="Page1"
              IconImageSource="reminders.png">
-    <HorizontalStackLayout Margin="20" Spacing="6">
-        <Label Text="Colombia's flag colours"/>
-        <VerticalStackLayout Spacing="6">
-            <Rectangle Fill="Yellow" WidthRequest="30" HeightRequest="30"/>
-            <Rectangle Fill="Blue" WidthRequest="30" HeightRequest="30"/>
-            <Rectangle Fill="Red" WidthRequest="30" HeightRequest="30"/>
-        </VerticalStackLayout>
-        <Label Text="Spain's flag colours"/>
-        <VerticalStackLayout Spacing="6">
-            <Rectangle Fill="Red" WidthRequest="30" HeightRequest="30"/>
-            <Rectangle Fill="#EABE3F" WidthRequest="30" HeightRequest="30"/>
-            <Rectangle Fill="Red" WidthRequest="30" HeightRequest="30"/>
-        </VerticalStackLayout>
-    </HorizontalStackLayout>
+    <StackLayout>
+        <Label Text="Admin users" Margin="0,20,0,0"/>
+        <StackLayout BindableLayout.ItemsSource="{Binding People}" HorizontalOptions="Start" Margin="0,20,0,0">
+            <BindableLayout.EmptyView>
+                <StackLayout>
+                    <Label Text="There aren't admin users" TextColor="Red" FontAttributes="Italic"/>
+                </StackLayout>
+            </BindableLayout.EmptyView>
+            <BindableLayout.ItemTemplate>
+                <DataTemplate>
+                    <Border BackgroundColor="LightGray" WidthRequest="50">
+                        <Label Text="{Binding Name}" TextColor="Black"/>
+
+                    </Border>
+                </DataTemplate>
+            </BindableLayout.ItemTemplate>
+        </StackLayout>
+        <Button Text="Delete data" Command="{Binding DeleteCommand}" WidthRequest="200" HorizontalOptions="Start" Margin="0,20,0,0"/>
+    </StackLayout>
 </ContentPage>

@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoMAUI", "CursoMAUI.csproj", "{B63AC67C-2F31-406A-AE8E-40FFE7F79F2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoMAUI", "CursoMAUI.csproj", "{B63AC67C-2F31-406A-AE8E-40FFE7F79F2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{913FF234-7A48-47EA-86D6-336407D62857}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
