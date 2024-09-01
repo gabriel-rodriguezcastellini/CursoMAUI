@@ -2,16 +2,25 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CursoMAUI.MainPage"
-             BackgroundColor="Red"
-             Title="Main page"
+             Title="Home"
              IsBusy="True"
              Padding="30"
              IconImageSource="contact.png">
-
-    <StackLayout VerticalOptions="Center">
-        <Button Text="button 1" Clicked="Button_Clicked"></Button>
-        <Button Text="button 2"></Button>
-        <Button Text="button 3"></Button>
-    </StackLayout>
-
+    <VerticalStackLayout HorizontalOptions="Center">
+        <Label Padding="10" HorizontalOptions="Center" TextColor="Purple" TextType="Html">
+            &lt;strong style=&quot;color:red&quot;&gt;.NET MAUI&lt;/strong&gt; course
+        </Label>
+        <Label MaxLines="2" LineHeight="1.5" Text="This is a 100% free course aimed&#10;to all people who love&#10;app development&#10;with Microsoft technologies" TextColor="#000"/>
+        <Label TextColor="#800080" CharacterSpacing="5" HorizontalOptions="Center" TextDecorations="Underline" TextTransform="Uppercase">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Video here" FontAttributes="Italic" TextDecorations="Strikethrough">
+                        <Span.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding TapCommand}"/>
+                        </Span.GestureRecognizers>
+                    </Span>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </VerticalStackLayout>
 </ContentPage>
