@@ -1,4 +1,4 @@
-﻿using CursoMAUI.Pages;
+﻿using CursoMAUI.Views;
 
 namespace CursoMAUI;
 
@@ -8,6 +8,6 @@ public partial class App : Application
     {
         InitializeComponent();
 
-        MainPage = new TabbedPageT();
+        MainPage = new Image_View();
     }
 }

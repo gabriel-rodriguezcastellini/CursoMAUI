@@ -57,6 +57,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<None Remove="GifImages\formatgif.gif" />
 		<None Remove="Resources\Images\iconocatorce.png" />
 		<None Remove="Resources\Images\iconocinco.png" />
 		<None Remove="Resources\Images\iconocuatro.png" />
@@ -100,9 +101,16 @@
 		<MauiXaml Update="Pages\TabbedPageT.xaml">
 		  <Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
+		<MauiXaml Update="Views\Image-View.xaml">
+		  <Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="Views\Label.xaml">
+		  <Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
 	</ItemGroup>
 
 	<ItemGroup>
+		<EmbeddedResource Include="GifImages\formatgif.gif" />
 		<MauiImage Include="Resources\Splash\splash.svg" />
 	</ItemGroup>
 
