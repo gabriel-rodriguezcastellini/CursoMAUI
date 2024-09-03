@@ -101,6 +101,9 @@
 		<MauiXaml Update="Pages\TabbedPageT.xaml">
 		  <Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
+		<MauiXaml Update="Views\Box-View.xaml">
+		  <Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
 		<MauiXaml Update="Views\Image-View.xaml">
 		  <Generator>MSBuild:Compile</Generator>
 		</MauiXaml>

@@ -1,6 +1,4 @@
-﻿using CursoMAUI.Views;
-
-namespace CursoMAUI;
+﻿namespace CursoMAUI;
 
 public partial class App : Application
 {
@@ -8,6 +6,6 @@ public partial class App : Application
     {
         InitializeComponent();
 
-        MainPage = new Image_View();
+        MainPage = new Views.Box_View();
     }
 }
