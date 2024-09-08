@@ -107,6 +107,9 @@
 		<MauiXaml Update="Views\Box-View.xaml">
 		  <Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
+		<MauiXaml Update="Views\Frame-View.xaml">
+		  <Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
 		<MauiXaml Update="Views\Image-View.xaml">
 		  <Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
