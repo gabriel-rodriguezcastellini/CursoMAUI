@@ -6,6 +6,6 @@ public partial class App : Application
     {
         InitializeComponent();
 
-        MainPage = new Views.Frame_View();
+        MainPage = new Views.Graphics_View();
     }
 }
